@@ -1,0 +1,33 @@
+$font_size_main: 18px;
+$font_color_main: #fff;
+$font_color_accent: #689ff2;
+
+
+$background_color: #161926;
+
+$green_neon_color: #53f3cd;
+$green_neon_dark_color: #02e0ab;
+$border_color :#515773;
+
+$width_container: 1170px;
+$adaptive_width_container: calc($width_container / 2);
+
+$font_family_title: 'Playfair Display', sans-serif;
+
+
+:root {
+    --font_color_main: #fff;
+    --sign_color:#fff;
+    --background_color: #161926;
+    --background_color_opacity: #161926d7;
+    --background_header: linear-gradient(
+    269deg,
+    rgba(22, 25, 38, 0.5) 0%,
+    rgba(22, 25, 38, 0.5) 51.07%,
+    rgba(22, 25, 38, 0.5) 100%
+  );
+    --btn_color: #53f3cd;
+    --background_image: url(../assets/img/bg.jpg);
+    --font_color_accent: #689ff2;
+    --btn_dark_color: #02e0ab;
+}

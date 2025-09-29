@@ -1,0 +1,15 @@
+@use 'vars' as *;
+
+%title {
+    font-family: $font_family_title;
+    font-weight: 400;
+}
+
+
+%section {
+    margin-bottom: 120px;
+
+    @media screen and (max-width: 768px) {
+    margin-bottom: 70px;
+  }
+}
