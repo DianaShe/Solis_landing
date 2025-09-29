@@ -411,7 +411,7 @@ body {
   transition: background-color 0.3s;
   z-index: 3;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 650px) {
   .toggle {
     left: 50%;
   }
@@ -522,7 +522,7 @@ body {
   display: flex;
   gap: 30px;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 650px) {
   .menu {
     position: absolute;
     right: -100%;
@@ -541,7 +541,7 @@ body {
 .menu_item:hover .menu_link::after {
   transform: scaleX(1);
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 650px) {
   .menu_item {
     text-align: center;
     padding: 20px 0;
@@ -570,7 +570,7 @@ body {
 .burger {
   display: none;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 650px) {
   .burger:checked ~ .menu {
     opacity: 1;
     right: 0;
@@ -591,7 +591,7 @@ body {
   display: none;
   cursor: pointer;
 }
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 650px) {
   .burger_img {
     display: inline-block;
     position: relative;
