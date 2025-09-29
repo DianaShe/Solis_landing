@@ -381,6 +381,7 @@ body {
   background-color: var(--background_color);
   position: relative;
   color: var(--font_color_main);
+  overflow-x: hidden;
 }
 
 .toggle:checked ~ .body_wrapper {
@@ -923,6 +924,7 @@ body {
   font-size: 20px;
   line-height: 100%;
   letter-spacing: 0.08em;
+  color: #fff;
 }
 
 .video_wrapper {
@@ -1127,6 +1129,7 @@ body {
   margin-bottom: 40px;
 }
 .input_label {
+  color: var(--btn_color);
   font-size: 18px;
   position: absolute;
   bottom: 12px;
