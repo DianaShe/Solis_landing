@@ -726,6 +726,8 @@ body {
 
 .hero {
   display: flex;
+  z-index: 3;
+  position: relative;
 }
 .hero_text {
   margin-bottom: 50px;

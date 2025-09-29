@@ -383,6 +383,8 @@ body {
 .hero {
   @extend %section;
   display: flex;
+  z-index: 3;
+    position: relative;
 
   &_text {
     @extend .text;
