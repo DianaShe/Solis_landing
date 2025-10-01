@@ -1,0 +1,11 @@
+@mixin text($line-height:1.44, $opacity: 0.8, $margin-bottom: 50px) {
+    line-height: $line-height;
+    opacity: $opacity;
+    margin-bottom: $margin-bottom;
+}
+
+@mixin flex($justify: center, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
